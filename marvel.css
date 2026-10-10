@@ -1,0 +1,67 @@
+* {
+    background-color: black;
+}
+#head {
+    text-align: center;
+    margin: 5px;
+    color: red;
+}
+
+#main {
+    text-align: center;
+    margin: 5px;
+    color: red;
+}
+
+.movies-list {
+     color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    width: 340px;
+    flex-shrink: 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.movie img {
+    width: 340px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.movie p {
+    width: 100%;
+    margin: 10px 0;
+    white-space: normal;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.marvel {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 100px;
+    width: 540px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.marvel img {
+     width: 540px;
+    height: 600px;
+}
+
+.main {
+     border: 3px solid white;
+}
