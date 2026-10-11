@@ -35,7 +35,7 @@
     object-fit: cover;
     display: block;
     cursor: pointer;
-    border: 3px solid white;
+    border: 3px solid red;
 }
 
 .movie p {
@@ -65,3 +65,4 @@
 .main {
      border: 3px solid white;
 }
+
