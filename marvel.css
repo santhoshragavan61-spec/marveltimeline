@@ -1,10 +1,5 @@
 * {
-    background-color: black;
-}
-#head {
-    text-align: center;
-    margin: 5px;
-    color: red;
+    background-color: black; 
 }
 
 #main {
@@ -66,3 +61,15 @@
      border: 3px solid white;
 }
 
+p:hover {
+    color: red;
+}
+
+*::selection {
+    color: yellow;
+    background-color: green;
+}
+
+p {
+    font-size: 25px;
+}
